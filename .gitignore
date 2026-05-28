@@ -1,11 +1,14 @@
-# Ignorar todo
+# Ignorar absolutamente todo
 *
+
+# Permitir .gitignore
+!.gitignore
 
 # Permitir carpetas CLASS
 !CLASS*/
 
-# Permitir contenido dentro de CLASS
-!CLASS*/**
+# Permitir subcarpetas dentro de CLASS
+!CLASS*/**/
 
-# Permitir .gitignore
-!.gitignore
+# Permitir SOLO archivos Python
+!CLASS*/**/*.py
