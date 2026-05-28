@@ -1,0 +1,11 @@
+# Ignorar todo
+*
+
+# Permitir carpetas CLASS
+!CLASS*/
+
+# Permitir contenido dentro de CLASS
+!CLASS*/**
+
+# Permitir .gitignore
+!.gitignore
